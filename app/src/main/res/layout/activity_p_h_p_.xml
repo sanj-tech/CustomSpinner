@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BACCB3"
+    android:orientation="vertical"
+    tools:context=".PHP_Activity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+
+PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.
+
+PHP 7 is the latest stable release.What is a PHP File?
+PHP files can contain text, HTML, CSS, JavaScript, and PHP code
+PHP code is executed on the server, and the result is returned to the browser as plain HTML
+PHP files have extension Why PHP?
+PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+PHP supports a wide range of databases
+PHP is free. Download it from the official PHP resource: www.php.net
+PHP is easy to learn and runs efficiently on the server sideComments in PHP
+A comment in PHP code is a line that is not executed as a part of the program. Its only purpose is to be read by someone who is looking at the code.
+
+Comments can be used to:
+
+Let others understand your code
+Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+
+Comments in PHP
+A comment in PHP code is a line that is not executed as a part of the program. Its only purpose is to be read by someone who is looking at the code.
+
+Comments can be used to:
+
+Let others understand your code
+Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+    </TextView>
+</ScrollView>
+
+</LinearLayout>
